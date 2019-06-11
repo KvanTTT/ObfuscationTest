@@ -7,5 +7,5 @@
             <argument name="mode" value="decodable" />
         </protection>
     </rule>
-    <module path="ObfuscationTest.dll" />
+    <module path="ObfuscationTest.exe" />
 </project>
