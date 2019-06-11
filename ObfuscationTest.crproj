@@ -1,0 +1,11 @@
+<project baseDir="bin\Debug\netcoreapp2.1" outputDir="..\..\Obfuscated" >
+    <rule pattern="true" inherit="false">
+        <protection id="anti ildasm" />
+        <protection id="constants" />
+        <protection id="invalid metadata" />
+        <protection id="rename">
+            <argument name="mode" value="decodable" />
+        </protection>
+    </rule>
+    <module path="ObfuscationTest.dll" />
+</project>

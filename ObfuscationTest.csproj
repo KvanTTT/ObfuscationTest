@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Confuser.MSBuild" Version="2.0.0-alpha-0191" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="ObfuscationTest.crproj" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <Obfuscate>True</Obfuscate>
+    </PropertyGroup>
+    
+</Project>
